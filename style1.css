@@ -1,0 +1,127 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: Arial;
+    border:border-box;
+}
+body{
+    width:100%;
+    background-color:rgb(51, 47, 47);
+}
+.fa-crown{
+    margin-left:35px;
+    margin-top:10px;
+}
+header{
+    display:flex;
+    background-color: rgb(223, 18, 223);
+    height:40px;
+}
+ a{
+    text-decoration: none;
+    color:black;
+}
+ul li{
+    list-style: none;
+    display:inline-block;
+    padding-left:49px;
+    margin-top:8px;
+
+}
+.fa-bars{
+    margin-left:395px;
+    margin-top:10px;
+
+}
+#restart{
+            margin-left:15px;
+            margin-top:10px;
+        
+}
+.container{
+    overflow:hidden;
+
+}
+.slide{
+    display: flex;
+    animation-name: slider;
+    animation-duration: 10s;
+    /* animation-delay: 3s; */
+    animation-iteration-count:infinite;
+    animation-direction: alternate;
+
+}
+@keyframes slider{
+    0%{
+        transform:translateX(0%);
+    }
+
+    100%{
+        transform:translateX(-100%);
+    }
+}
+.all_card{
+    margin: 0;
+    
+}
+.card{
+    margin-left:60px;
+    margin-top:60;
+
+}
+.card1{
+    width:200px;
+    height:450px;
+    margin-left:90px;
+    margin-top:60px;
+    background-color:gray;
+    border-radius: 30px 30px 30px 30px;
+    float:left;
+
+}
+.card1 img{
+    width:200px;
+    height:300px;
+    border-radius:20px 20px 0px 0px;
+}
+#hart{
+    margin-top:50px;
+    margin-left:10px;
+}
+ .text pre{
+    width:200px;
+    height:200px;
+    margin-left:60px;
+    border-radius:0px 0px 20px 20px;
+    background-color: gray;
+}
+.footer{
+    width:100%;
+    height:300px;
+    margin-top:1590px;
+    background-color: aliceblue;
+}
+.footer1{
+    margin-left:150px;
+    margin-top:50px;
+    float:left;
+}
+.footer2{
+    margin-top:50px;
+    margin-left:50px;
+    float:left;
+}
+.footer3{
+    margin-left:50px;
+    margin-top:50px;
+    float:left;
+}
+.fixed_pst a{
+    position:fixed;    
+    transition:  ;
+    bottom: 20px;
+    right:10px;
+    padding:5px 20px 5px 20px;
+    transition: all;
+    -o-transition-timing-function:cubic-bezier(0.075, 0.82, 0.165, 1);
+}
